@@ -1,0 +1,175 @@
+.container {
+    margin: 0%;
+    width: 100vw;
+    height: 100vh;
+    border: .1rem solid black;
+    display: grid;
+    grid-template-areas: 
+    'head'
+    'main';
+    grid-template-rows: 20rem;
+    background-color: rgb(148, 64, 64);
+    color: #fff;
+    text-shadow: -5px 6px 5px rgba(0,0,0,0.53);
+}
+
+header {
+    display: flex;
+    grid-area: head;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.tittle {
+    font-size: 2rem;
+}
+
+.quest {
+    position: absolute;
+    font-size: 2rem;
+
+}
+
+main {
+    display: flex;
+    grid-area: main;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.respo {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.respo button{
+    width: 25rem;
+    height: 7rem;
+    font-size: 2rem;
+    text-shadow: -5px 6px 5px rgba(0,0,0,0.53);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 14%, rgba(255,6,6,1) 50%, rgba(0,0,0,1) 81%);
+    border: none;
+    box-shadow: 0px 10px 24px -2px rgba(0,0,0,0.66);
+    color: #fff;
+    cursor: pointer;
+}
+
+/* quest */
+#p1 {
+    visibility: hidden;
+}
+#q1 {
+    visibility: hidden;
+}
+
+#p2 {
+    visibility: hidden;
+}
+#q2{
+    visibility: hidden;
+}
+
+#p3{
+    visibility: hidden;
+}
+#q3{
+    visibility: hidden;
+}
+
+#p4 {
+    visibility: hidden;
+}
+#q4{
+    visibility: hidden;
+}
+
+#p5{ 
+    visibility: hidden;
+}
+#q5{
+    visibility: hidden;
+}
+
+#p6{ 
+    visibility: hidden;
+}
+#q6{
+    visibility: hidden;
+}
+
+#p7{
+    visibility: hidden;
+}
+#q7{
+    visibility: hidden;
+}
+
+#p8 {
+    visibility: hidden;
+}
+#q8{
+    visibility: hidden;
+}
+
+#p9 {
+    visibility: hidden;
+}
+#q9{
+    visibility: hidden;
+}
+
+#p10 {
+    visibility: hidden;
+}
+#q10{
+    visibility: hidden;
+}
+
+.tittle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tittle button{
+    width: 25rem;
+    height: 7rem;
+    font-size: 2rem;
+    text-shadow: -5px 6px 5px rgba(0,0,0,0.53);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 14%, rgba(255,6,6,1) 50%, rgba(0,0,0,1) 81%);
+    border: none;
+    box-shadow: 0px 10px 24px -2px rgba(0,0,0,0.66);
+    color: #fff;
+    cursor: pointer;
+}
+
+#i1 {
+    visibility: hidden;
+}
+
+#i2 {
+    visibility: hidden;
+}
+
+#i3 {
+    visibility: hidden;
+}
+
+.quest button{
+    width: 13rem;
+    height: 3.5rem;
+    font-size: 1.5rem;
+    text-shadow: -5px 6px 5px rgba(0,0,0,0.53);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 14%, rgba(255,6,6,1) 50%, rgba(0,0,0,1) 81%);
+    border: none;
+    box-shadow: 0px 10px 24px -2px rgba(0,0,0,0.66);
+    color: #fff;
+    cursor: pointer;
+}
